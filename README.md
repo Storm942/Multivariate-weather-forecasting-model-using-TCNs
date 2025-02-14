@@ -2,6 +2,9 @@
 - **`weatherforecasting_tcn.ipynb`** → Jupyter Notebook containing the model training and evaluation.
 - **`GlobalWeatherRepository.csv`** → The dataset used for training the model.
 
+## DESCRIPTION
+- This project focuses on building a **Temporal Convolutional Network (TCN)** for weather forecasting. The model predicts three key weather parameters—**temperature**, **wind speed**, and **precipitation**—for the next 7 days.The TCN architecture leverages dilated convolutions and residual connections to capture temporal dependencies in the data, making it well-suited for time-series forecasting tasks.
+
 - ## Key Features
 - **Data Preprocessing**: Handles missing values, scales features, and creates sequences for time-series forecasting.
 - **TCN Model**: Implements a deep learning model with dilated convolutions and residual connections for accurate predictions.
